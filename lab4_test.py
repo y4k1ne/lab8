@@ -26,7 +26,7 @@ def test_source_valid():
 
 def test_source_invalid_ip():
     with pytest.raises(ValidationError):
-        Source(id=6, ip_addr="", country_code="US")
+        Source(id=6, ip_addr="192.168.0.10", country_code="US")
 
 
 def test_source_invalid_country():
