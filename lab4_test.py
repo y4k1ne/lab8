@@ -64,7 +64,7 @@ def test_invalid_vote_empty_block_id():
     with pytest.raises(ValidationError):
         Vote(block_id="", voter_id=2, timestamp="2026-03-01 12:00:00", source_id=3)
 
-
+ 
 def test_invalid_vote_empty_timestamp():
     with pytest.raises(ValidationError):
         Vote(block_id="0xB001", voter_id=2, timestamp="", source_id=3)
