@@ -1,4 +1,4 @@
-# BlockProcessor (Labs 2–6)
+# Project (Labs 2–6)
 
 ## Project Description
 
